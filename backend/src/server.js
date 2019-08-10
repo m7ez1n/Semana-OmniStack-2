@@ -15,4 +15,4 @@ mongoose.connect(databaseConfig.uri, {
 server.use(express.json());
 server.use(routes);
 
-server.listen(process.env.PORT || 3333);
+server.listen(3333);
